@@ -1,0 +1,53 @@
+# Vivado项目忽略文件
+
+# 忽略缓存文件夹
+*.cache/
+*.hw/
+*.ip_user_files/
+*.sim/
+
+# 忽略运行生成的文件
+*.runs/impl_1/*.backup.vdi
+*.runs/impl_1/*.backup.jou
+*.runs/impl_1/*.pb
+*.runs/impl_1/*.rpt
+*.runs/impl_1/*.rpx
+*.runs/impl_1/*.dcp
+*.runs/impl_1/*.tcl
+*.runs/impl_1/*.vdi
+*.runs/impl_1/*.xml
+*.runs/impl_1/*.txt
+*.runs/impl_1/*.log
+*.runs/impl_1/*.bat
+*.runs/impl_1/*.sh
+*.runs/impl_1/*.js
+
+*.runs/synth_1/*.pb
+*.runs/synth_1/*.rpt
+*.runs/synth_1/*.dcp
+*.runs/synth_1/*.tcl
+*.runs/synth_1/*.vds
+*.runs/synth_1/*.xml
+*.runs/synth_1/*.txt
+*.runs/synth_1/*.log
+*.runs/synth_1/*.bat
+*.runs/synth_1/*.sh
+*.runs/synth_1/*.js
+*.runs/synth_1/__synthesis_is_complete__
+
+# 保留重要的输出文件
+!*.runs/impl_1/*.bit
+
+# 忽略系统文件
+.DS_Store
+*.log
+vivado*.jou
+vivado*.log
+
+# 忽略Vivado自动生成的文件
+*.xml
+*.html
+*.wdb
+webtalk*.jou
+webtalk*.log
+
